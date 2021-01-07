@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './index.css';
+
 
 function Contact() {
     //set initial values of the form state to empty strings, to clear the input fields when the component loads

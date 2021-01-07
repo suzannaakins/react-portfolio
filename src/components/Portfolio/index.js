@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import './index.css'
 
 const projects = [
     {
@@ -55,15 +56,14 @@ const projects = [
 
 function Portfolio() {
     return (
-        <header>
+        <>
             <h1>
                 Projects
             </h1>
             <div>
                 <Project projects={projects} />
             </div>
-        </header>
-
+        </>
     )
 }
 

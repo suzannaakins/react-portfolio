@@ -2,3 +2,15 @@ img {
     padding: 30px 10px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #66FCF1;
+}
+
+h2:hover {
+        color: #45A29E;
+}
