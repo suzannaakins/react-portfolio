@@ -20,7 +20,8 @@ function Project(props) {
                     <a href={project.github} target="_blank">
                         Click here to view the project's Github repository.
                     </a>
-                    <img src={require(`../../assets/${project.image}`).default}
+                    <br/>
+                    <img className="projectimage" src={require(`../../assets/${project.image}`).default}
                     />
                 </li>
             ))}

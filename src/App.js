@@ -36,7 +36,6 @@ function App() {
         setCurrentSection={setCurrentSection}>
       </Header>
       <main>
-        <About/>
         {currentSection.component}
       </main>
       <Footer></Footer>

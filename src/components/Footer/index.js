@@ -20,7 +20,7 @@ function Footer() {
                     href="https://www.linkedin.com/in/suzanna-akins/"
                     target="_blank"
                     aria-label="Connect with Suzanna Akins on LinkedIn">
-                    <img className="linkedin" src={require(`../../assets/linkedin.svg`).default}>
+                    <img className="linkedin" src={require(`../../assets/linkedin.png`).default}>
                     </img>
                 </a>
             </li>

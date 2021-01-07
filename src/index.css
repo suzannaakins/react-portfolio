@@ -31,3 +31,13 @@ nav  li {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
+
+.projectimage {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.linkedin {
+  width: 15%;
+  padding-left: 20px;
+}
