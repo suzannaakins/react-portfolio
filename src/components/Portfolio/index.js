@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Project from '../Project';
 
 const projects = [
@@ -13,7 +13,7 @@ const projects = [
     {
         id: 2,
         name: 'Covid CA',
-        description: 'This app helps you track COVID cases in CA and find testing sites near you',
+        description: 'This app helps you track COVID cases in CA and find testing sites near you.',
         image: 'covid.png',
         applink: 'https://aaroncenteno.github.io/covid-ca/',
         github: 'https://github.com/suzannaakins/covid-ca'
@@ -26,35 +26,45 @@ const projects = [
         applink: 'https://quiet-hamlet-13328.herokuapp.com/',
         github: 'https://github.com/suzannaakins/tech-blog'
     },
-    // {
-    //     id: 4,
-    //     name: '',
-    //     description: '',
-    //     image: '',
-    //     applink: '',
-    //     github: ''
-    // },
-    // {
-    //     id: 5,
-    //     name: '',
-    //     description: '',
-    //     image: '',
-    //     applink: '',
-    //     github: ''
-    // },
-    // {
-    //     id: 6,
-    //     name: '',
-    //     description: '',
-    //     image: '',
-    //     applink: '',
-    //     github: ''
-    // }
+    {
+        id: 4,
+        name: 'Weather Forecast',
+        description: 'This app gives you a 5-day weather forecast for any city in the world! Type in the city you would like to see the weather for. It will tell you the temperature, humidity, windspeed, and UV Index. The UV Index is color-coded based on severity.',
+        image: 'weather.png',
+        applink: 'https://suzannaakins.github.io/weather-forecast/',
+        github: 'https://github.com/suzannaakins/weather-forecast'
+    },
+    {
+        id: 5,
+        name: 'Password Generator',
+        description: 'Using Javascript, I wrote a series of variables and functions to create a random password using lowercase and uppercase letters, digits, and special characters.',
+        image: 'password.png',
+        applink: 'https://suzannaakins.github.io/password-generator/',
+        github: 'https://github.com/suzannaakins/password-generator'
+    },
+    {
+        id: 6,
+        name: 'Employee Generator',
+        description: "I wanted a backend application that allows a software engineering team to make a portfolio of their employees, with their contact information, so that everyone's titles and info would be in one place. I developed it using Node.js and Jest to run tests.",
+        image: 'employee.png',
+        applink: 'https://drive.google.com/file/d/1LNyzxLAcLEy9W6isX0HE8jZp-NCyRpbV/view',
+        github: 'https://github.com/suzannaakins/employee-generator'
+    }
 ];
 
 
 function Portfolio() {
-    return <Project projects={projects} />;
+    return (
+        <header>
+            <h1>
+                Projects
+            </h1>
+            <div>
+                <Project projects={projects} />
+            </div>
+        </header>
+
+    )
 }
 
 export default Portfolio;

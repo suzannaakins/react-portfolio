@@ -9,6 +9,10 @@ import Resume from './components/Resume'
 function App() {
   const [sections] = useState([
     {
+      name: 'Suzanna Akins', 
+      component: About
+    },
+    {
       name: 'About Me',
       component: About
     },
@@ -29,7 +33,7 @@ function App() {
   const [currentSection, setCurrentSection] = useState(sections[0])
 
   return (
-    <div className="flex-row">
+    <div>
       <Header
         sections={sections}
         currentSection={currentSection}

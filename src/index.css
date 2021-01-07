@@ -5,14 +5,20 @@ body {
     sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  flex-direction: row;
+a {
+  text-decoration: none;
 }
 
 li {
   list-style: none;
 }
+
+nav ul {
+  text-align: right;
+  list-style-type: none;
+  flex-direction: row;
+}
+
 
 nav a:hover {
   text-decoration: none;
@@ -20,6 +26,7 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  padding-left: 30px;
 }
 
 .flex-row {
