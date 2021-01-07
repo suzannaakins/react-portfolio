@@ -2,14 +2,32 @@ import React from 'react';
 
 function Footer() {
     return (
-        <a
-        class="btn"
-        href="https://github.com/suzannaakins" 
-        target="_blank"
-        aria-label="Follow Suzanna Akins on Github">
-            <img src={require(`../../assets/GitHub.png`).default}>
-            </img>
-        </a>
+        <ul className="flex-row">
+            <>
+            <li>
+                <a
+                    class="btn"
+                    href="https://github.com/suzannaakins"
+                    target="_blank"
+                    aria-label="Follow Suzanna Akins on Github">
+                    <img className="giticon" src={require(`../../assets/GitHub.png`).default}>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a
+                    class="btn"
+                    href="https://www.linkedin.com/in/suzanna-akins/"
+                    target="_blank"
+                    aria-label="Connect with Suzanna Akins on LinkedIn">
+                    <img className="linkedin" src={require(`../../assets/linkedin.svg`).default}>
+                    </img>
+                </a>
+            </li>
+            </>
+        </ul>
+
+
     )
 }
 
