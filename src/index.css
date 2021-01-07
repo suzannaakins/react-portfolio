@@ -31,9 +31,3 @@ nav  li {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
-
-
-.giticon {
-  padding: 20px 30px;
-  float: left;
-}

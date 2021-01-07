@@ -3,7 +3,6 @@ import React from 'react';
 function Footer() {
     return (
         <ul className="flex-row">
-            <>
             <li>
                 <a
                     class="btn"
@@ -14,6 +13,7 @@ function Footer() {
                     </img>
                 </a>
             </li>
+            <br/>
             <li>
                 <a
                     class="btn"
@@ -24,7 +24,6 @@ function Footer() {
                     </img>
                 </a>
             </li>
-            </>
         </ul>
 
 
