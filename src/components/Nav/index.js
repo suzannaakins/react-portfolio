@@ -8,10 +8,11 @@ function Nav(props) {
             <ul className="flex-row">
                 {sections.map((section) => (
                     <li 
-                        className={`${currentSection.name === section.name}` }
+                        className={`${currentSection.name === section.name && 'navActive'}`}
                         key={section.name}
                     >
-                        <a href={`${currentSection.name}`}
+                        <a 
+                        className={`${currentSection.name === section.name && 'navActive'}`}
                             onClick={() => {
                                 setCurrentSection(section);
                             }}

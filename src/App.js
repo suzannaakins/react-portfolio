@@ -9,28 +9,28 @@ import Resume from './components/Resume'
 function App() {
   const [sections] = useState([
     {
-      name: 'Suzanna Akins', 
-      component: About
+      name: 'Suzanna Akins',
+      component: <About />
     },
     {
       name: 'About Me',
-      component: About
+      component: <About />
     },
     {
       name: 'Portfolio',
-      component: Portfolio
+      component: <Portfolio />
     },
     {
       name: 'Contact',
-      component: Contact
+      component: <Contact />
     },
     {
       name: 'Resume',
-      component: Resume
+      component: <Resume />
     }
   ])
 
-  const [currentSection, setCurrentSection] = useState(sections[0])
+  const [currentSection, setCurrentSection] = useState(sections[0]);
 
   return (
     <div>
