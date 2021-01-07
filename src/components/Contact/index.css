@@ -8,3 +8,17 @@ button {
     border-color: #45A29E;
     background-color: #66FCF1;
 }
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+textarea {
+    padding-top: 10px;
+    margin-top: 10px;
+}

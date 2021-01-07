@@ -3,14 +3,14 @@ img {
 }
 
 a {
-    color: white;
+    color: #66FCF1;
     text-decoration: none;
 }
 
 a:hover {
-    color: #66FCF1;
+    color: #45A29E;
 }
 
-h2:hover {
-        color: #45A29E;
+h2 {
+    color: #25d8cc;
 }

@@ -9,7 +9,7 @@ import Resume from './components/Resume'
 function App() {
   const [sections] = useState([
     {
-      name: 'Suzanna Akins',
+      name: 'SUZANNA AKINS',
       component: <About />
     },
     {

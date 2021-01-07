@@ -1,13 +1,16 @@
 import React from 'react';
+import resume from './resume.png'
+import './index.css'
 
 function Resume() {
     return (
         <div>
-            <p>
-            RESUME coming soon
-            </p>
+            <img
+                src={resume}
+                alt="Suzanna's Resume"
+            />
         </div>
-    
+
     )
 }
 
