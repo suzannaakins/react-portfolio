@@ -9,10 +9,6 @@ import Resume from './components/Resume'
 function App() {
   const [sections] = useState([
     {
-      name: 'SUZANNA AKINS',
-      component: <About />
-    },
-    {
       name: 'About Me',
       component: <About />
     },

@@ -3,3 +3,12 @@ div {
     margin: 0 auto;
     text-align: center;
 }
+
+a {
+    font-size: x-large;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bolder;
+}

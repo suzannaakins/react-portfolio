@@ -7,6 +7,10 @@ body {
     color: #C5C6C7;
 }
 
+nav {
+  display: inline-block
+}
+
 nav a {
   text-decoration: none;
   color: black;
@@ -14,10 +18,11 @@ nav a {
 
 li {
   list-style: none;
+  text-align: center;
+  justify-content: center;
 }
 
 nav ul {
-  text-align: right;
   list-style-type: none;
   flex-direction: row;
 }
@@ -68,5 +73,11 @@ header {
 }
 
 footer {
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagetitle {
+  font-size: xx-large;
+  color: green;
 }
