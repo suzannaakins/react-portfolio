@@ -9,7 +9,7 @@ function Header(props) {
     return (
         <header>
             <h1>
-                <a onClick={() => {setCurrentSection(sections[0])}}>
+                <a className="header" onClick={() => {setCurrentSection(sections[0])}}>
                                 SUZANNA AKINS</a>
              </h1>
             <Nav
