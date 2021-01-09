@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7d7d7c4e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8ab9929e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8ab9929e.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.be9eef10.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.be9eef10.js.map",
+    "static/js/2.f50500aa.chunk.js": "/react-portfolio/static/js/2.f50500aa.chunk.js",
+    "static/js/2.f50500aa.chunk.js.map": "/react-portfolio/static/js/2.f50500aa.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.7d7d7c4e.chunk.css.map": "/react-portfolio/static/css/main.7d7d7c4e.chunk.css.map",
+    "static/js/2.f50500aa.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f50500aa.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.jpg": "/react-portfolio/static/media/AboutMe.81324344.jpg",
+    "static/media/bossy.png": "/react-portfolio/static/media/bossy.5d3a89cc.png",
+    "static/media/covid.png": "/react-portfolio/static/media/covid.486dcf17.png",
+    "static/media/employee.png": "/react-portfolio/static/media/employee.f9f41a75.png",
+    "static/media/imdb.png": "/react-portfolio/static/media/imdb.60b7b8dd.png",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.b14830b7.svg",
+    "static/media/password.png": "/react-portfolio/static/media/password.f568bf94.png",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.a88d0570.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.71c209ec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be9eef10.js",
+    "static/js/2.f50500aa.chunk.js",
+    "static/css/main.7d7d7c4e.chunk.css",
+    "static/js/main.8ab9929e.chunk.js"
+  ]
+}
