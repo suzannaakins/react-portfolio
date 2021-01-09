@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css'
 
 function Footer() {
     return (
@@ -30,6 +31,21 @@ function Footer() {
                             className="linkedin"
                             src={require(`../../assets/linkedin.png`).default}
                             alt="LinkedIn icon">
+                        </img>
+                    </a>
+                </li>
+                <br/>
+                <li>
+                    <a
+                        class="btn"
+                        href="https://www.imdb.com/name/nm6026070/"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Suzanna Akins on IMDb">
+                        <img
+                            className="imdb"
+                            src={require(`../../assets/imdb.png`).default}
+                            alt="IMDb icon">
                         </img>
                     </a>
                 </li>

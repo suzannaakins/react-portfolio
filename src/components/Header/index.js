@@ -4,7 +4,7 @@ import './index.css'
 
 function Header(props) {
     
-    const { sections, currentSection, setCurrentSection } = props;
+    const { sections, setCurrentSection } = props;
 
     return (
         <header>
