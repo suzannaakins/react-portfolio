@@ -4,9 +4,17 @@ footer ul {
 }
 
 .imdb {
-        width: 19%;
+        width: 6%;
+        margin: 0px 0px;
       }
 
 .linkedin {
         width: 15%;
+        margin: 0px 0px;
+}
+
+li {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        justify-content: space-around;
 }
