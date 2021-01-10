@@ -1,7 +1,12 @@
-footer li {
-    align-items: center;
+footer ul {
+    justify-items: center;
+    justify-content: center;
 }
 
 .imdb {
-    size: 20%;
+        width: 19%;
+      }
+
+.linkedin {
+        width: 15%;
 }

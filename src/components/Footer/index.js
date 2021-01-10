@@ -13,7 +13,6 @@ function Footer() {
                         rel="noreferrer"
                         aria-label="Follow Suzanna Akins on Github">
                         <img
-                            className="giticon"
                             src={require(`../../assets/GitHub.png`).default}
                             alt="Github Icon">
                         </img>
@@ -34,7 +33,7 @@ function Footer() {
                         </img>
                     </a>
                 </li>
-                <br/>
+                <br />
                 <li>
                     <a
                         class="btn"
