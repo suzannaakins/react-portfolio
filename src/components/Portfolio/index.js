@@ -21,14 +21,22 @@ const projects = [
     },
     {
         id: 3,
+        name: 'Petter Life',
+        description: 'This MERN stack application connects pet owners looking to find a new home for their pet with people looking to adopt.',
+        image: 'petter.png',
+        applink: 'https://a-petter-life.herokuapp.com/',
+        github: 'https://github.com/ChrisMeissner/petter-life'
+    },
+    {
+        id: 4,
         name: 'Tech Blog',
         description: 'This is my first full stack application, where I developed the backend using sequelize to create databases, and routes. Then I used handlebars to make the front end HTML templates.',
-        image: 'techblog.png',
+        image: 'petter.png',
         applink: 'https://quiet-hamlet-13328.herokuapp.com/',
         github: 'https://github.com/suzannaakins/tech-blog'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Weather Forecast',
         description: 'This app gives you a 5-day weather forecast for any city in the world! Type in the city you would like to see the weather for. It will tell you the temperature, humidity, windspeed, and UV Index. The UV Index is color-coded based on severity.',
         image: 'weather.png',
@@ -36,7 +44,7 @@ const projects = [
         github: 'https://github.com/suzannaakins/weather-forecast'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Password Generator',
         description: 'Using Javascript, I wrote a series of variables and functions to create a random password using lowercase and uppercase letters, digits, and special characters.',
         image: 'password.png',
@@ -44,7 +52,7 @@ const projects = [
         github: 'https://github.com/suzannaakins/password-generator'
     },
     {
-        id: 6,
+        id: 7,
         name: 'Employee Generator',
         description: "I wanted a backend application that allows a software engineering team to make a portfolio of their employees, with their contact information, so that everyone's titles and info would be in one place. I developed it using Node.js and Jest to run tests.",
         image: 'employee.png',
